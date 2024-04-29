@@ -1,0 +1,178 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* navbar */
+
+#navbar{
+display: flex;
+align-items: center;
+position: relative;
+}
+
+#logo {
+    margin: 35px 45px;
+}
+
+#logo img{
+    margin: -3px -22px;
+    height: 69px;
+    width: 149px;
+}
+#navbar ul{
+    display: flex;
+    justify-content: center;
+    
+
+}
+#navbar ul li {
+    list-style: none;
+    font-size: 22px;
+    font-family: 'Nunito', sans-serif;
+    
+    
+}
+#navbar ul li a{
+    display: block;
+    padding: 25px;
+    border-radius: 20px;
+    text-decoration: none;
+    color: red;
+    font-family: 'Nunito', sans-serif;
+    font-weight: bold;
+    
+}
+#navbar ul li a:hover{
+    display: block;
+    padding: 10px 25px;
+    border-radius: 20px;
+    text-decoration: none;
+    color: white;
+    background-color: red;
+    
+}
+
+
+#img1{
+    padding: 14px 0px;
+   
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    height: 563px;
+    width: 150px;
+    padding-bottom: 45px;
+    
+    
+}
+.btn1{
+   
+    color: aliceblue;
+    background-color: red;    
+    padding: 6px 8px;
+    
+    border-color: red;
+    border-radius: 10px;
+    display: flex;
+    margin: auto;
+    align-items: center;
+    font-size: 1.3rem;
+    cursor: pointer;
+    font-family: 'Nunito', sans-serif;
+}
+.btn1:hover{
+    background-color: rgba(237, 0, 0, 0.75);
+    border-color: rgba(242, 1, 1, 0.75) ;
+}
+
+#phead{
+    display: flex;
+    margin: auto;
+    padding: 16px;
+    padding-top: 60px;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    font-size: 2.65rem;
+    font-family: 'Poor Story', system-ui;
+}
+
+#psec{
+    display: flex;
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+}
+
+.boxpc{
+    padding: 20px;
+    cursor: pointer;
+
+}
+
+#aboutus{
+    background-color: #e4e4e4;
+    position: relative;
+    
+}
+.insec{
+    display: flex;
+    
+    
+    justify-content: center;
+}
+.shop{
+padding: 25px;
+}
+.shop li {
+    list-style: none;
+    padding-bottom: 5px;
+}
+.shop h1{
+    padding-top: 25px;
+    padding-bottom: 25px;
+    font-size: 1.3rem;
+    font-family: 'Nunito', sans-serif;
+}
+.shop li a{
+    text-decoration: none;
+    color: black;
+    
+}
+.shop li a:hover{
+    text-decoration: underline;
+}
+.socials{
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.soclogo{
+  
+}
+.soclogo img{
+    height: 30px; 
+    padding: 17px; 
+}
+.soclogo img:hover{
+    height: 30px; 
+    padding: 17px;
+    opacity: 0.7;
+    cursor: pointer;
+}
+.copyr{
+    text-align: center;
+    font-size: 0.9rem;
+    font-family: 'Nunito', sans-serif;
+}
+.hmlogo{
+    display: flex;
+    margin: auto;
+    justify-content: center;
+}
+.hmlogo img{
+    height: 45px;
+    padding-top: 20px;
+}
