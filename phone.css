@@ -1,0 +1,42 @@
+#navbar{
+flex-direction: column;
+justify-content: center;
+
+}
+#navbar ul li a{
+    font-size: 16px;
+    padding: 4px 8px;
+    
+    
+    }
+    
+
+#home{
+    justify-content: center;
+    height: 1400px;
+    
+}
+#home #img1{
+    justify-content: center;
+    height: 230px;
+    width: 230px;
+    
+}
+#phead p{
+    font-size: 26px;
+}
+
+#psec{
+    flex-direction: column;
+   
+}
+
+.boxpc img{
+    height: 170px;
+    width: 170px;
+}
+
+.btn1{
+    font-size: 15px;
+    padding: 4px 8px;
+}
